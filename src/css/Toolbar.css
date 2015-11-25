@@ -1,0 +1,87 @@
+#toolbar-container {
+  border-bottom: 1px solid #ccc;
+  color: #333;
+}
+
+.toolbar-list {
+  border: none !important;
+  border-radius: 0px !important;
+  margin: 0 !important;
+  min-height: 0 !important;
+  padding: 0;
+}
+
+.toolbar-list .container {
+  margin: 0 !important;
+  padding: 0;
+}
+
+.toolbar-list .navbar-nav>li {
+  padding: 0 !important;
+}
+
+.toolbar-list .navbar-nav>li>a {
+  border-radius: 0px !important;
+  cursor: default;
+  padding: 5px 10px !important;
+}
+
+.toolbar-list .dropdown-menu {
+  background-color: #f8f8f8;
+  border-radius: 0px !important;
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+.toolbar-list .dropdown-menu:after{
+ display:none;
+}
+
+.toolbar-list .caret {
+  display:none;
+}
+
+.toolbar-list .dropdown-menu>li {
+  background-color: #f8f8f8;
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+.toolbar-list .dropdown-menu>li>a {
+  cursor: default;
+  margin: 0  !important;
+  padding: 5px 0 5px 10px !important;
+}
+
+.toolbar-list li {
+  list-style-type:none;
+  padding-right: 20px;
+}
+
+.disabled-menu-item a {
+  color:#aaa !important;
+}
+
+.disabled-menu-item a:hover,
+.disabled-menu-item a:focus {
+  background-color: #f8f8f8 !important;
+  color: #ff0000;
+}
+
+.toolbar-list a[role=button] {
+  border: none !important;
+  color: #fff !important;
+}
+
+.toolbar-list a[role=button]:hover,
+.toolbar-list a[role=button]:focus {
+  background-color: #5cb85c !important;
+  color: #fff !important;
+}
+
+.shortcut-key {
+  color: #333;
+  font-size: 12px;
+  float: right;
+  padding-right: 10px;
+}

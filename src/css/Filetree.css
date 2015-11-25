@@ -1,0 +1,11 @@
+#filetree-container {
+  cursor: default;
+}
+
+.selectedFile {
+  background-color: #ddd;
+}
+
+.info {
+  padding-left: 26px;
+}

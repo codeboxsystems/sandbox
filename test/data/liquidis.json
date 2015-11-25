@@ -1,0 +1,18 @@
+[
+  {
+    type: 'src',
+    collapsed: false,
+    files: [
+      {name: 'folder', age: 25, sex: 'male', role: 'coder', collapsed: false},
+      {name: 'app.js', age: 23, sex: 'female', role: 'jqueryer', collapsed: false},
+    ],
+  },
+  {
+    type: 'img',
+    collapsed: false,
+    files: [
+      {name: 'ball.png', age: 35, sex: 'male', role: 'boss', collapsed: false},
+    ],
+  },
+];
+
